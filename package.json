@@ -1,6 +1,6 @@
 {
   "name": "download-exports-service",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Provides endpoints to download the most recent version of data exports (csv files)",
   "author": "redpencil.io",
   "license": "MIT",
