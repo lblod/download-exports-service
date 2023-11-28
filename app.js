@@ -5,13 +5,6 @@ import {
 } from './queries';
 import { zip } from 'express-zip';
 
-/* 
-TODO
-
-1. Fill in Readme
-2. Extend report service to always only keep the most recent version of a report
-*/
-
 app.get('/export-names', async function(req, res) {
   const titleOptions = await getTitleOptions();
   return res.status(200).send(titleOptions);
