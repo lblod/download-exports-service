@@ -1,0 +1,11 @@
+{
+  "name": "download-exports-service",
+  "version": "0.0.0",
+  "description": "Provides endpoints to download the most recent version of data exports (csv files)",
+  "author": "redpencil.io",
+  "license": "MIT",
+  "dependencies": {
+    "@lblod/mu-auth-sudo": "^0.6.1",
+    "express-zip": "^3.0.0"
+  }
+}
